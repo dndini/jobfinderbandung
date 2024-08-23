@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--
+    //Nama        : Dini Yuliani ;
+    //NIM         : 10121905 ;
+    //Kelas       : IF9K ;
+    //Mata Kuliah : Pemrograman Android ;
+    //Dosen       : Rizki Adam Kurniawan S.Kom., M.Kom. ;
+    //Selesai     : 22 Agustus 2024. 22:00 ;
+    -->
+
+    <TextView
+        android:id="@+id/jobTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jobDescTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobTitleTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jobLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobDescTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/jobInformationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobLocationTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+</RelativeLayout>
